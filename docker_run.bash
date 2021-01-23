@@ -17,7 +17,7 @@ usage() {
 [ $# -eq 0 ] && usage
 
 alerter="email"
-default_image="Saulcc96/tj:latest"
+default_image="saulcc96/tj:latest"
 image=$default_image
 
 while getopts a:c:d:e:i:q:r:w:t arg
